@@ -20,6 +20,24 @@ you files will be backed up but its name will change theyre names will be
 
 in your ~/.configs
 
+I added a few fonts that you may have not installed if you have just have them
+
+if you do not want them edit this script and remove them
+
+and edit some of my bar configs widgets for backlight and temparture since its
+
+just for my computer. 
+
+example if it does not work just remove them by commenting them
+
+#widget.Backlight
+#backgroung =
+#foreground =
+#),
+
+something like this 
+
+now you can do anything you want
 
 "
 
@@ -50,5 +68,7 @@ cp -r kitty ~/.config/
 
 cp -r qtile ~/.config/
 
-yay -S python python-psutil qtile picom-jonaburg-git kitty
+yay -S python python-psutil qtile picom-jonaburg-git kitty ttf-font-awesome dmenu ttf-liberation noto-fonts ttf-inconsolata ttf-freefont ttf-linux-libertine ttf-dejavu
+
+echo "if you install all the dependency and fonts you can now logout and login in qtile"
 
