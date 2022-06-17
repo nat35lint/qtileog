@@ -41,6 +41,7 @@ now you can do anything you want
 
 "
 
+yay -S python python-psutil qtile picom-jonaburg-git kitty ttf-font-awesome dmenu ttf-liberation noto-fonts ttf-inconsolata ttf-freefont ttf-linux-libertine ttf-dejavu
 
 cd ~/.config/
 
@@ -67,8 +68,6 @@ cp -r picom ~/.config/
 cp -r kitty ~/.config/
 
 cp -r qtile ~/.config/
-
-yay -S python python-psutil qtile picom-jonaburg-git kitty ttf-font-awesome dmenu ttf-liberation noto-fonts ttf-inconsolata ttf-freefont ttf-linux-libertine ttf-dejavu
 
 echo "if you install all the dependency and fonts you can now logout and login in qtile"
 
