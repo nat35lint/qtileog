@@ -71,3 +71,9 @@ cp -r qtile ~/.config/
 
 echo "if you install all the dependency and fonts you can now logout and login in qtile"
 
+echo "I think you may need this if your still new to window managers which is nitrogen 
+
+for wallpaper lxappearance for your themes. if you do not want them you can press [CTRL+C]
+"
+
+yay -S lxappearance nitrogen
